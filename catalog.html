@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <title>HTML Academy: Барбершоп Страница Каталог</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/main.css">
+  </head>
+  <body>
+    <header class="main-header">
+      <nav class="main-navigation">
+        <a href="index.html">
+          <img src="http://placehold.it/150x100" alt="Логотип Барбершоп Бородинский">
+        </a>
+        <ul>
+          <li class="main-navigation-item">
+            <a class="main-navigation-item-link" href="#">Информация</a>
+          </li>
+          <li class="main-navigation-item">
+            <a class="main-navigation-item-link" href="#">Новости</a>
+          </li>
+          <li class="main-navigation-item">
+            <a class="main-navigation-item-link" href="#">Прайс-лист</a>
+          </li>
+          <li class="main-navigation-item">
+            <a class="main-navigation-item-link active">Магазин</a>
+          </li>
+          <li class="main-navigation-item">
+            <a class="main-navigation-item-link" href="#">Контакты</a>
+          </li>
+        </ul>
+        <ul>
+            <li class="user-navigation">
+              <a class="user-navigation-link" href="#">Вход</a>
+            </li>
+        </ul>
+      </nav>
+    </header>
+    <main class="container">
+      <h1 class="page-headline">Средства для ухода</h1>
+      <ul class="breadcrumbs">
+        <li><a class="breadcrumbs-link-1" href="#">Главная</a></li>
+        <li><a class="breadcrumbs-link-2" href="#">Магазин</a></li>
+        <li class="breadcrumbs-end">Средства для ухода</li>
+      </ul>
+      <section class="catalog-filter">
+        <h2 class="visually-hidden">Фильтр каталога товаров Барбершопа</h2>
+        <form action="https://echo.htmlacademy.ru">
+            <h3 class="catalog-filter-brends-headline">Производители</h3>
+            <input type="checkbox" name="brend-1" id="brend-1" checked>
+            <label class="catalog-filter-brend"  for="brend-1">Baxter of California</label>
+            <input type="checkbox" name="brend-2" id="brend-2">
+            <label class="catalog-filter-brend"  for="brend-2">Mr Natty</label>
+            <input type="checkbox" name="brend-3" id="brend-3" checked>
+            <label class="catalog-filter-brend"  for="brend-3">Suavecito</label>
+            <input type="checkbox" name="brend-4" id="brend-4">
+            <label class="catalog-filter-brend"  for="brend-4">Malin+Goetz</label>
+            <input type="checkbox" name="brend-5" id="brend-5">
+            <label class="catalog-filter-brend"  for="brend-5">Murray’s</label>
+            <input type="checkbox" name="brend-6" id="brend-6" checked>
+            <label class="catalog-filter-brend"  for="brend-6">American Crew</label>
+
+            <h3 class="catalog-filter-group-products-headline">Группы товаров</h3>
+            <input type="radio" name="group-products-1"   id="group-products-1">
+            <label class="catalog-filter-group-products" for="group-products-1">Бритвенные принадлежности</label>
+            <input type="radio" name="group-products-2"   id="group-products-2" checked>
+            <label class="catalog-filter-group-products" for="group-products-2">Средства для ухода</label>
+            <input type="radio" name="group-products-3"   id="group-products-3">
+            <label class="catalog-filter-group-products" for="group-products-3">Аксессуары</label>
+            <input type="submit" value="Показать">
+        </form>
+      </section>
+     <section class="catalog-items">
+       <h2 class="visually-hidden">Товары магазина Барбершоп Бородинский</h2>
+
+       <article class="catalog-item">
+         <img src="http://placehold.it/150x100" alt="Набор для путешествий «Baxter of California»">
+         <h3 class="catalog-item-headline">Набор для путешествий<br>
+            «Baxter of California»</h3>
+            <div class="catalog-item-buy">
+                <span class="catalog-item-price">500 р</span>
+                <input type="button" value="Купить">
+            </div>
+       </article>
+       <article class="catalog-item">
+          <img src="http://placehold.it/150x100" alt="Набор для путешествий «Baxter of California»">
+          <h3 class="catalog-item-headline">Увлажняющий кондиционер<br>
+              «Baxter of California»</h3>
+             <div class="catalog-item-buy">
+                 <span class="catalog-item-price">750 р</span>
+                 <input type="button" value="Купить">
+             </div>
+        </article>
+        <article class="catalog-item">
+            <img src="http://placehold.it/150x100" alt="Набор для путешествий «Baxter of California»">
+            <h3 class="catalog-item-headline">Гель для волос<br>
+                «SUAVECITO»</h3>
+               <div class="catalog-item-buy">
+                   <span class="catalog-item-price">290 р</span>
+                   <input type="button" value="Купить">
+               </div>
+          </article>
+          <article class="catalog-item">
+              <img src="http://placehold.it/150x100" alt="Набор для путешествий «Baxter of California»">
+              <h3 class="catalog-item-headline">Глина для укладки волос<br>
+                  «American crew»</h3>
+                 <div class="catalog-item-buy">
+                     <span class="catalog-item-price">500 р</span>
+                     <input type="button" value="Купить">
+                 </div>
+            </article>
+            <article class="catalog-item">
+                <img src="http://placehold.it/150x100" alt="Набор для путешествий «Baxter of California»">
+                <h3 class="catalog-item-headline">Гель для волос<br>
+                    «AMERICAN CREW»</h3>
+                   <div class="catalog-item-buy">
+                       <span class="catalog-item-price">300 р</span>
+                       <input type="button" value="Купить">
+                   </div>
+              </article>
+              <article class="catalog-item">
+                  <img src="http://placehold.it/150x100" alt="Набор для путешествий «Baxter of California»">
+                  <h3 class="catalog-item-headline">Набор для бритья<br>
+                      «Baxter of California»</h3>
+                     <div class="catalog-item-buy">
+                         <span class="catalog-item-price">3900 р</span>
+                         <input type="button" value="Купить">
+                     </div>
+                </article>
+                <ul class="pagination">
+                  <li><a href="#">1</a></li>
+                  <li class="pagination-active-page"><a>2</a></li>
+                  <li><a href="#">3</a></li>
+                  <li><a href="#">4</a></li>
+                </ul>
+     </section>
+    </main>
+
+    <footer class="main-footer">
+      <div class="main-footer-contacts">
+        <p>
+          Барбершоп "Бородинский" <br>
+          Адрес:г.Санкт-Петербург,ул.Б.Конюшенная,д.19/8<br>
+          <a href="#">Как нас найти?</a><br>
+          Телефон:+7(495)666-02-66
+        </p>
+      </div>
+      <div class="main-footer-social">
+        <span>Давайте дружить!</span>
+        <ul class="main-footer-social-list">
+          <li><a class="main-footer-social-vk" href="">vk</a></li>
+          <li><a class="main-footer-social-fb" href="">fb</a></li>
+          <li><a class="main-footer-social-insta" href="">instagram</a></li>
+        </ul>
+      </div>
+      <div class="main-footer-developed-by">
+        <span class="main-footer-developed-by-headline">Разработано:</span>
+        <a class="main-footer-developed-by-link" href="#">HTML Academy</a>
+      </div>
+    </footer>
+
+  </body>
+</html>
